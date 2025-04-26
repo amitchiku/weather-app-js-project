@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="project-2.css">
+</head>
+<body>
+
+  <!-- Loading Spinner UI -->
+  <div id="loading-spinner" class="spinner">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <!-- Location Access UI  -->
+  <div id="location-ui" class="ui">
+    <h1>Get Weather by Location 📍</h1>
+    <button id="location-btn">Allow Location</button>
+  </div>
+
+  <!-- Current Location Weather UI -->
+  <div id="weather-ui" class="ui">
+    <h1>Current Weather 🌎</h1>
+    <div id="weather-info">
+      <h2 id="city-name">City Name</h2>
+      <h3 id="temperature">Temperature</h3>
+      <p id="condition">Condition</p>
+    </div>
+    <input type="text" id="search-bar" placeholder="Search another city">
+    <button id="search-btn">Search</button>
+    <button id="back-btn">Back</button>
+  </div>
+
+  <!-- Search Weather UI -->
+  <div id="search-ui" class="ui">
+    <h1>Search Weather 🔎</h1>
+    <input type="text" id="city-input" placeholder="Enter city name">
+    <button id="search-city-btn">Search</button>
+    <button id="back-search-btn">Back</button>
+  </div>
+
+  <script src="project-2.js"></script>
+</body>
+</html>
+
+
